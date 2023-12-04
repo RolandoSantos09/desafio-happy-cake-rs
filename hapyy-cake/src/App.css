@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.boxCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+.BoxNav {
+  background-color: #d6d6d6;
+  line-height: 8rem;
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border-bottom: 20px;
+  -webkit-box-shadow: 6px -3px 8px 4px rgba(0, 0, 0, 0.61);
+  box-shadow: 6px -3px 8px 4px rgba(0, 0, 0, 0.61);
+}
+a {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 400;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.card-title {
+  color: blue;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: blue;
+}
+.span {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.form-label {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.formbox {
+  height: 400px;
+  width: auto;
+  background-color: #2a9dbd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  box-shadow: 6px -3px 8px 4px rgba(0, 0, 0, 0.61);
+}
